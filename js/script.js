@@ -23,7 +23,7 @@ const directionsBtn = document.getElementById("directionsBtn");
 if (directionsBtn) {
     directionsBtn.addEventListener("click", () => {
         // Endereço exato da academia
-        const destino = encodeURIComponent("R. Duque de Caxias, 119 - Cariacica Sede, Cariacica - ES, 29156-100");
+        const destino = encodeURIComponent("Av. Lopes Loureiro, 23 - Cariacica Sede, Cariacica - ES, 29156-140");
 
         // Se geolocalização não estiver disponível, abre apenas o destino
         if (!navigator.geolocation) {
